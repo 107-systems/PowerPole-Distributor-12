@@ -6,7 +6,7 @@
 
   (title_block
     (title "l3xz_power_distribution")
-    (date "2023-04-08")
+    (date "2023-04-09")
     (rev "0.1")
     (company "107-systems")
   )
@@ -383,7 +383,9 @@
   )
 
 
+  (no_connect (at 248.92 139.7) (uuid 50cb4cf4-53a4-4f72-a444-5b67c226a839))
   (no_connect (at 248.92 113.03) (uuid 8871fb27-a580-494c-bfcd-39b8933cd66b))
+  (no_connect (at 248.92 130.81) (uuid 9cc8ed52-fdeb-43b5-864a-603beb3aff79))
   (no_connect (at 248.92 95.25) (uuid a95d62e6-741c-47e3-a898-f7f315d4cbd0))
   (no_connect (at 248.92 104.14) (uuid e135b36b-c985-447c-8b60-067995e353e2))
   (no_connect (at 248.92 121.92) (uuid e215ecd5-cada-450c-8944-d541ab78fdce))
@@ -1302,7 +1304,7 @@
     (property "Value" "MountingHole_Pad" (id 1) (at 251.46 92.7099 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 248.92 92.71 0)
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" (id 2) (at 248.92 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 248.92 92.71 0)
@@ -1328,6 +1330,24 @@
     )
     (pin "1" (uuid 036d8e58-016e-425e-94aa-6af6226f303c))
     (pin "2" (uuid b5c20f88-37cf-4011-94e3-3864e33ed562))
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 248.92 128.27 0) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (uuid 7041093c-e64c-451f-8ae6-b9c314fadbd7)
+    (property "Reference" "H5" (id 0) (at 251.46 125.7299 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole_Pad" (id 1) (at 251.46 128.2699 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" (id 2) (at 248.92 128.27 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 248.92 128.27 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 6b506172-12e8-47af-a7fa-e186874eddcf))
   )
 
   (symbol (lib_id "power:+BATT") (at 66.04 24.13 0) (unit 1)
@@ -2006,6 +2026,24 @@
     (pin "1" (uuid fc3b9d28-bb3b-4767-a70b-591cec8cfce5))
   )
 
+  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 248.92 137.16 0) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (uuid cdeee3d0-bf98-4cd1-9d4d-9df40e15b216)
+    (property "Reference" "H6" (id 0) (at 251.46 134.6199 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole_Pad" (id 1) (at 251.46 137.1599 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" (id 2) (at 248.92 137.16 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 248.92 137.16 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 376cef81-3854-47df-9371-bb0074b45cce))
+  )
+
   (symbol (lib_id "power:+BATT") (at 125.73 175.26 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid ceb69352-d33c-42c4-be28-b12c6aa3291f)
@@ -2339,6 +2377,12 @@
     )
     (path "/c2971403-9ea3-4d2d-b4dc-8b2d3538422b"
       (reference "H4") (unit 1) (value "MountingHole_Pad") (footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad")
+    )
+    (path "/7041093c-e64c-451f-8ae6-b9c314fadbd7"
+      (reference "H5") (unit 1) (value "MountingHole_Pad") (footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad")
+    )
+    (path "/cdeee3d0-bf98-4cd1-9d4d-9df40e15b216"
+      (reference "H6") (unit 1) (value "MountingHole_Pad") (footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad")
     )
     (path "/40ba9434-20aa-4351-8c1b-12ceb107b778"
       (reference "J1") (unit 1) (value "PowerPole_ver") (footprint "generationmake:POWERPOLE_hor90_2")
