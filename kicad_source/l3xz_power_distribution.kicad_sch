@@ -1148,7 +1148,7 @@
     (property "Value" "10k" (id 1) (at 185.42 133.3499 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 182.88 132.08 0)
+    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (id 2) (at 182.88 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 182.88 132.08 0)
@@ -1699,7 +1699,7 @@
     (property "Value" "LED_Small" (id 1) (at 185.42 142.1764 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "LED_SMD:LED_0603_1608Metric" (id 2) (at 182.88 140.97 90)
+    (property "Footprint" "LED_THT:LED_D3.0mm" (id 2) (at 182.88 140.97 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 182.88 140.97 90)
@@ -2364,7 +2364,7 @@
       (reference "C12") (unit 1) (value "10 uF 25 V") (footprint "Capacitor_SMD:C_1210_3225Metric")
     )
     (path "/aa33507a-d84b-4086-beae-008cffa3c4b6"
-      (reference "D1") (unit 1) (value "LED_Small") (footprint "LED_SMD:LED_0603_1608Metric")
+      (reference "D1") (unit 1) (value "LED_Small") (footprint "LED_THT:LED_D3.0mm")
     )
     (path "/6a7e0bf4-f960-4745-8dd2-66806c9968e5"
       (reference "H1") (unit 1) (value "MountingHole_Pad") (footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad")
@@ -2427,7 +2427,7 @@
       (reference "L2") (unit 1) (value "Label") (footprint "generationmake:l3xz_small_silk")
     )
     (path "/5a85479c-fca6-4da9-9ced-dadc3e18f6c4"
-      (reference "R1") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R1") (unit 1) (value "10k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
     )
   )
 )
