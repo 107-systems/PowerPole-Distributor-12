@@ -381,7 +381,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../l3xz_power_distribution.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
